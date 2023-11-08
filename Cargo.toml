@@ -12,7 +12,7 @@ documentation = "https://docs.rs/r2d2-cryptoki/"
 serde = ["cryptoki/serde"]
 
 [dependencies]
-cryptoki = "0.6.0"
+cryptoki = { git = "https://github.com/jippeholwerda/rust-cryptoki.git" }
 r2d2 = "0.8.10"
 
 [dev-dependencies]
